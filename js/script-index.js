@@ -1,5 +1,14 @@
 $(document).ready( function(){
-	$('.js-menu').hide();
+	$('.js-back').hide();
+
+	function printNews(){
+		$('.callout-news p').html( "NUEVAS RECETAS");
+	}
+	printNews();
+
+
+
+
 
 });
 
